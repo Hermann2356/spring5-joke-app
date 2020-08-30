@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <div class="banner">
+        <h1>CHUCK NORRIS JOKES</h1>
+        <input type="button" value="Prev"/>
+        <input th:type="button" value="Next"/>
+    </div>
+</header>
+   <div>
+       <div>
+           <p th:text="${joke}">Jokes</p>
+       </div>
+   </div>
+</body>
+</html>
